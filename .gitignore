@@ -1,0 +1,35 @@
+# Large data files — too big for GitHub
+*.csv
+*.xlsx
+*.zip
+
+# Power BI files — binary, not useful on GitHub
+*.pbix
+*.pbit
+
+# Word documents
+*.docx
+*.dotx
+
+# Allow sample data folder
+!data/sample/*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files — never commit credentials
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output folder contents (generated files)
+outputs/
